@@ -1,0 +1,26 @@
+# Môi trường ảo (Virtual Environment)
+venv/
+ENV/
+env/
+.env
+
+# Các file cache của Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Dữ liệu (Thường không nên đưa lên Git nếu dung lượng lớn)
+data/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Các file log và file tạm
+*.log
+.DS_Store (cho Mac)
+Thumbs.db (cho Windows)
+
+# Thư mục cấu hình IDE (VS Code, PyCharm)
+.vscode/
+.idea/
